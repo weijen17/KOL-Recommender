@@ -60,7 +60,7 @@ docker-compose up --build
 ## Main Application Usage
 
 1. Place your input KOL_Listing file (excel file) in **input/raw_data** directory. 
-2. Amend env file accordingly, especially the INPUT_FILENAME which refers to the filename of KOL raw data.
+2. Amend env file accordingly, e.g., Top N KOL recommended, input filename and output filename.
 3. Exexute main.py with **celebrity attributes**. 
 ```bash
 python main.py --性别 "男" --年龄 "00后" --国籍 "中国" --职业 "网红" --形象 "多才多艺" --粉丝性别 "女" --粉丝年龄 "25-29" --粉丝城市级别 "一线城市" --粉丝区域 "华东、华中" --粉丝省份 "北京市、上海市"
