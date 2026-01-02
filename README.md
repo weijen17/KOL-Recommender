@@ -6,7 +6,7 @@
 
 - Python 3.12+
 - Docker and Docker Compose (for containerized deployment)
-- Full KOL listings with designated attributes
+- Full KOL listing with designated attributes (excel)
 
 ## Setup
 
